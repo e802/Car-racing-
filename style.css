@@ -1,0 +1,60 @@
+* {
+  font-family: open-sans; /* Change your font family */
+}
+
+
+html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        display: flex;
+        /* This centers our sketch horizontally. */
+        justify-content: center;
+        /* This centers our sketch vertically. */
+        align-items: center;
+      }
+      canvas {
+        margin: auto;
+        border: 2px solid black;
+      }
+     #table {
+      border-collapse: collapse;
+      margin:  0;
+      font-size: 0.9em;
+      min-width: 100px;
+      margin-top:25px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    th{
+      background-color: white;
+      color: black;
+      text-align: left;
+      font-weight: bold;
+      padding: 12px 15px;
+      border-bottom: 1px solid #dddddd;
+      border-bottom: 2px solid #009879;
+      border-right: 2px solid #009879;
+      border-left: 2px solid #009879;
+      border-top: 2px solid #009879;
+      font-weight: bold;
+      color: blue;
+    }
+    tr,td {
+      background-color: white;
+      color: black;
+      text-align: left;
+      font-weight: bold;
+      padding: 12px 15px;
+      border-bottom: 1px solid #dddddd;
+      border-bottom: 2px solid #009879;
+      border-right: 2px solid #009879;
+      border-left: 2px solid #009879;
+      border-top: 2px solid #009879;
+     
+      color: red;
+    }
+
